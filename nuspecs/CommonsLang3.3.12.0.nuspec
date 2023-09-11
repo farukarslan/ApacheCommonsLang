@@ -1,0 +1,23 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ApacheCommonsLang</id>
+    <version>3.12.0</version>
+    <title>ApacheCommonsLang</title>
+    <authors>Ömer Faruk Arslan</authors>
+    <owners>Ömer Faruk Arslan</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/farukarslan/ApacheCommonsLang</projectUrl>
+    <description>ApacheCommonsLang - Apache commons-lang3</description>
+    <copyright>© Ömer Faruk Arslan. All rights reserved.</copyright>
+    <tags>Ömer Faruk Arslan ApacheCommonsLang</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid12.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin/Release/ApacheCommonsLang.dll" target="lib/monoandroid120/ApacheCommonsLang.dll" />
+    <file src="../../README.md" target="" />
+    <file src="../../LICENSE.txt" target="" />
+  </files>
+</package>

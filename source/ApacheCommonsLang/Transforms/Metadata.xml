@@ -1,0 +1,134 @@
+﻿<metadata>
+
+  <!-- PROPERTY NAME -->
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/interface[@name='Mutable']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/interface[@name='Mutable']/method[@name='setValue' and count(parameter)=1 and parameter[1][@type='T']]" name="propertyName"></attr> 
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableShort']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableInt']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableFloat']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableBoolean']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableByte']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableDouble']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableLong']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableObject']/method[@name='getValue' and count(parameter)=0]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.mutable']/class[@name='MutableObject']/method[@name='setValue' and count(parameter)=1 and parameter[1][@type='T']]" name="propertyName"></attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.time']/class[@name='GmtTimeZone']/method[@name='getRawOffset' and count(parameter)=0]" name="propertyName"></attr>
+  
+  <!-- MANAGED RETURN -->
+	<attr path="/api/package[@name='org.apache.commons.lang3.concurrent']/class[@name='MultiBackgroundInitializer']/method[@name='initialize' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='DiffBuilder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='org.apache.commons.lang3.exception']/class[@name='DefaultExceptionContext']/method[@name='setContextValue' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]" name="managedReturn">IExceptionContext</attr>
+	<attr path="/api/package[@name='org.apache.commons.lang3.exception']/class[@name='DefaultExceptionContext']/method[@name='addContextValue' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]" name="managedReturn">IExceptionContext</attr>
+	<attr path="/api/package[@name='org.apache.commons.lang3.exception']/class[@name='ContextedRuntimeException']/method[@name='setContextValue' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]" name="managedReturn">IExceptionContext</attr>
+	<attr path="/api/package[@name='org.apache.commons.lang3.exception']/class[@name='ContextedRuntimeException']/method[@name='addContextValue' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]" name="managedReturn">IExceptionContext</attr>
+	<attr path="/api/package[@name='org.apache.commons.lang3.exception']/class[@name='ContextedException']/method[@name='setContextValue' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]" name="managedReturn">IExceptionContext</attr>
+	<attr path="/api/package[@name='org.apache.commons.lang3.exception']/class[@name='ContextedException']/method[@name='addContextValue' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]" name="managedReturn">IExceptionContext</attr>
+
+  <!-- MANAGED OVERRIDE -->
+  <attr path="/api/package[@name='org.apache.commons.lang3.concurrent']/class[@name='MultiBackgroundInitializer']/method[@name='initialize' and count(parameter)=0]" name="managedOverride">override</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.time']/class[@name='GmtTimeZone']/method[@name='setRawOffset' and count(parameter)=1 and parameter[1][@type='int']]" name="managedOverride">virtual</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.time']/class[@name='GmtTimeZone']/method[@name='getRawOffset' and count(parameter)=0]" name="managedOverride">virtual</attr>
+
+  <!-- VISIBILITY -->
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isUseShortClassName' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isUseIdentityHashCode' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isUseFieldNames' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isUseClassName' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getSummaryObjectStartText' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getSummaryObjectEndText' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getSizeStartText' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getSizeEndText' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getNullText' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isFieldSeparatorAtStart' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isFieldSeparatorAtEnd' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getFieldSeparator' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getFieldNameValueSeparator' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isDefaultFullDetail' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getContentStart' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getContentEnd' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getArrayStart' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getArraySeparator' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='getArrayEnd' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='StandardToStringStyle']/method[@name='isArrayContentDetail' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3']/class[@name='Charsets']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3']/class[@name='CharRange']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.builder']/class[@name='IDKey']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.reflect']/class[@name='MemberUtils']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.time']/class[@name='FormatCache']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.apache.commons.lang3.time']/class[@name='GmtTimeZone']" name="visibility">public</attr>
+
+  <!-- REMOVE NODES -->
+	<remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']/method[@name='validIndex' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='int']]"/>
+	<remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']/method[@name='validIndex' and count(parameter)=4 and parameter[1][@type='T'] and parameter[2][@type='int'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.Object...']]"/>
+	<remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']/method[@name='notEmpty' and count(parameter)=1 and parameter[1][@type='T']]"/>
+	<remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']/method[@name='notEmpty' and count(parameter)=3 and parameter[1][@type='T'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.Object...']]"/>
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']/method[@name='notBlank' and count(parameter)=3 and parameter[1][@type='T'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.Object...']]"/>
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']/method[@name='notBlank' and count(parameter)=1 and parameter[1][@type='T']]"/>
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']/method[@name='getIfEmpty' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='java.util.function.Supplier&lt;T&gt;']]"/>  
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']/method[@name='getIfBlank' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='java.util.function.Supplier&lt;T&gt;']]"/>  
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']/method[@name='firstNonEmpty' and count(parameter)=1 and parameter[1][@type='T...']]"/>
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']/method[@name='firstNonBlank' and count(parameter)=1 and parameter[1][@type='T...']]"/>
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']/method[@name='defaultIfEmpty' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='T']]"/>
+  <remove-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']/method[@name='defaultIfBlank' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='T']]"/>
+
+  <!-- ADD NODES -->
+  <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']">
+    <method name="validIndex" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="collection" type="java.lang.Object" />
+      <parameter name="index" type="int" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']">
+    <method name="notEmpty" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="collection" type="java.lang.Object" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']">
+    <method name="notBlank" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="chars" type="java.lang.Object" />
+    </method>
+  </add-node>
+
+   <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']">
+    <method name="getIfEmpty" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="str" type="java.lang.Object" />
+      <parameter name="defaultSupplier" type="java.util.function.Supplier&lt;T&gt;" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']">
+    <method name="getIfBlank" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="str" type="java.lang.Object" />
+      <parameter name="defaultSupplier" type="java.util.function.Supplier&lt;T&gt;" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']">
+    <method name="firstNonEmpty" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="values" type="java.lang.Object[]" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']">
+    <method name="firstNonBlank" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="values" type="java.lang.Object[]" />
+    </method>
+  </add-node>
+
+   <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']">
+    <method name="defaultIfEmpty" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="str" type="java.lang.Object" />
+      <parameter name="defaultStr" type="java.lang.Object" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='org.apache.commons.lang3']/class[@name='StringUtils']">
+    <method name="defaultIfBlank" return="java.lang.Object" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="str" type="java.lang.Object" />
+      <parameter name="defaultStr" type="java.lang.Object" />
+    </method>
+  </add-node>
+	
+</metadata>
